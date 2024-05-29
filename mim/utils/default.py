@@ -50,7 +50,7 @@ MODULE2PKG = {
     'mmseg': 'mmsegmentation',
 }
 
-HOME = osp.expanduser('~')
+HOME = "/tmp/mim/"
 DEFAULT_CACHE_DIR = osp.join(HOME, '.cache', 'mim')
 if not osp.exists(DEFAULT_CACHE_DIR):
     os.makedirs(DEFAULT_CACHE_DIR)
